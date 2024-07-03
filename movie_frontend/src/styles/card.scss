@@ -1,0 +1,36 @@
+.card {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 50px 1fr;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  margin: 10px;
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: clip;
+
+  button {
+    padding: 20px;
+  }
+}
+
+.title {
+  height: 20px;
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overview {
+  height: 40px;
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// .titleData {
+//   grid-column: 2 / 4;
+//   text-align: center;
+// }
